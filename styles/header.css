@@ -1,0 +1,29 @@
+#header {
+    height: fit-content;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    color: beige;
+    transition: all 0.5s;
+    backdrop-filter: blur(10px);
+}
+
+.header-scrolled
+{
+    background-color: rgba(0, 0, 0, 0.654);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.574);
+}
+
+@media (max-width: 500px) 
+{
+    #header {
+        font-size: 3.5rem;
+    }
+}
+ 
